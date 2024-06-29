@@ -24,13 +24,8 @@ class ThirdFragment : Fragment() {
 
         return ComposeView(requireContext()).apply {
             setContent {
-                HelloTextThird()
+                HelloText("Third")
             }
         }
     }
-}
-@Composable
-@Preview
-fun HelloTextThird(){
-    Text(text = "Hello Third Fragment", color = Color.Red)
 }

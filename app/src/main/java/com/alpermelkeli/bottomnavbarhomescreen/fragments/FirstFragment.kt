@@ -22,15 +22,8 @@ class FirstFragment : Fragment() {
     ): View {
         return ComposeView(requireContext()).apply {
             setContent {
-                HelloTextFirst()
+                HelloText("First")
             }
         }
     }
-
-
-}
-@Composable
-@Preview
-fun HelloTextFirst(){
-    Text(text = "Hello First Fragment", color = Color.Red)
 }

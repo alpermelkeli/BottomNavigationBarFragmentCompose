@@ -24,15 +24,10 @@ class SecondFragment : Fragment() {
 
         return ComposeView(requireContext()).apply {
             setContent {
-                HelloTextSecond()
+                HelloText("Second")
             }
         }
     }
 
 }
 
-@Composable
-@Preview
-fun HelloTextSecond(){
-    Text(text = "Hello Second Fragment", color = Color.Red)
-}
