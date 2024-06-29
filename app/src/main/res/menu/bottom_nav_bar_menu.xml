@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/first"
+        android:icon="@color/black"
+        android:title="FirstFragment"
+        />
+
+    <item android:title="SecondFragment"
+        android:icon="@color/black"
+        android:id="@+id/second"
+        />
+
+    <item android:title="Third Fragment"
+        android:icon="@color/black"
+        android:id="@+id/third"
+        />
+</menu>

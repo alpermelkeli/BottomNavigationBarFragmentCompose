@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/first"
+    >
+    <fragment android:id="@+id/first"
+        android:name="com.alpermelkeli.bottomnavbarhomescreen.fragments.FirstFragment"
+        android:label="FirstFragment"
+        />
+
+    <fragment android:id="@+id/second"
+        android:name="com.alpermelkeli.bottomnavbarhomescreen.fragments.SecondFragment"
+        android:label="SecondFragment"
+        />
+
+    <fragment android:name="com.alpermelkeli.bottomnavbarhomescreen.fragments.ThirdFragment"
+        android:label="Third Fragment"
+        android:id="@+id/third"/>
+</navigation>
