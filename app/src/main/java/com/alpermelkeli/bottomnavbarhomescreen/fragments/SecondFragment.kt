@@ -24,7 +24,7 @@ class SecondFragment : Fragment() {
 
         return ComposeView(requireContext()).apply {
             setContent {
-                HelloText()
+                HelloTextSecond()
             }
         }
     }
@@ -33,6 +33,6 @@ class SecondFragment : Fragment() {
 
 @Composable
 @Preview
-fun HelloText(){
-    Text(text = "Hello Fragment", color = Color.Red)
+fun HelloTextSecond(){
+    Text(text = "Hello Second Fragment", color = Color.Red)
 }

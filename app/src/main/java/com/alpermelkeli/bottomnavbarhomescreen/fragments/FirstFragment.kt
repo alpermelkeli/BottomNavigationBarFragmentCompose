@@ -6,8 +6,10 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.compose.material3.Text
+import androidx.compose.runtime.Composable
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.ComposeView
+import androidx.compose.ui.tooling.preview.Preview
 import com.alpermelkeli.bottomnavbarhomescreen.R
 
 
@@ -20,10 +22,15 @@ class FirstFragment : Fragment() {
     ): View {
         return ComposeView(requireContext()).apply {
             setContent {
-                Text(text = "First Fragment", color = Color.Green)
+                HelloTextFirst()
             }
         }
     }
 
 
+}
+@Composable
+@Preview
+fun HelloTextFirst(){
+    Text(text = "Hello First Fragment", color = Color.Red)
 }
